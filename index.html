@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <title>Sin Cos Tan</title>
+</head>
+<body>
+    <div class="header">lol practice sin cos tan XD</div><br><br>
+    <div class="main">
+        <p style="font-size: 35px; color:rgba(224, 230, 58, 0.868); text-decoration: underline;">Write the correct values for the following trigonometric ratios:- </p><br>
+        <p>use the √ button to add root to the input field, if answer is undefined, type N</p>
+        <p>top field is for numerator, bottom for deno, leave empty deno if not a fraction</p>
+        <p style="display: inline-block;" id="Question"> </p>
+        <span>
+            <div class="fraction">
+                <input type="text" id="numerator" size="2">
+                <input type="text" id="denominator" size="2">
+            </div>
+            <div class="fraction">
+                <button onclick="root1()">√</button>
+                <button onclick="root2()">√</button>
+            </div>
+        </span>
+        <button onclick="submit()"> Submit </button><br>
+        <p id="test"></p>
+        <button onclick="ShowTable()">Show Table</button>
+        <p id="table"></p>
+        <p>Show Table function is not ready yet :P</p>
+        
+
+    </div>
+    <div class="footer"><h2>Made By Advaith Deepu</h2></div>
+    
+</body>
+</html>
